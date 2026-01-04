@@ -1,7 +1,12 @@
-import Trade from "./pages/trade";
+import InvoiceForm from "./pages/InvoiceForm";
+
 
 function App() {
-  return <Trade />;
+  return (
+    <div>
+      <InvoiceForm />
+    </div>
+  );
 }
 
 export default App;
